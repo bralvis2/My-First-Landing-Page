@@ -1,4 +1,4 @@
-# MiniProject-LandingPage
+# My First Landing Page
 
 <h1 align="center">
   <br>
