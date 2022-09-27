@@ -11,29 +11,37 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li>Github</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
+            <ul class="nav-links">
+                <li class="links">Github</li>
+                <li class="links">Portfolio</li>
+                <li class="links">Contact</li>
             </ul>
         </nav>
     </header>
 
-    <section>
+    <section class="main">
         <h1>My First Practice Website</h1>
         <img src="./assets/images/image-1.png" alt="coming soon text">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <p id="caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
     </section>
 
-    <section>
-        <form>
+    <section class="contact-div">
+        <div class="contact-container">
             <h3>Contact Me</h3>
-            <label>Name:</label>
-            <input></input>
-            <label>Email:</label>
-            <input></input>
-            <button> Send </button>
-        </form>
+            <form>
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user-name">
+                    </li>
+                    <li>
+                        <label for="email" >Email:</label>
+                        <input type="email" id="email" name="user-email">
+                    </li>
+                </ul>
+                <button> Send </button>
+            </form>
+        </div>
     </section>
 
     <footer>

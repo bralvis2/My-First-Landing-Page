@@ -7,8 +7,34 @@ header {
     border-bottom: 10px solid #DDAF94;
 }
 
+h1 {
+    font-size: 40px;
+    padding: 15px;
+}
+
 footer {
     background-color: #266150;
     color: white;
     text-align: center;
+}
+
+.nav-links {
+    text-align: right;
+    padding: 15px;
+}
+.links {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.main {
+    text-align: center;
+    background-color: #FDF8F5;
+}
+
+#caption {
+    padding: 10px;
 }
