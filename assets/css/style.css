@@ -1,0 +1,14 @@
+* {
+    margin: 0%;
+}
+header {
+    background-color: #266150;
+    color: white;
+    border-bottom: 10px solid #DDAF94;
+}
+
+footer {
+    background-color: #266150;
+    color: white;
+    text-align: center;
+}
