@@ -12,6 +12,19 @@ h1 {
     padding: 15px;
 }
 
+form {
+    border: 5px solid #DDAF94;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    background-color: #4F4846;
+    color: #FDF8F5;
+  }
+
 footer {
     background-color: #266150;
     color: white;
@@ -33,6 +46,31 @@ footer {
 .main {
     text-align: center;
     background-color: #FDF8F5;
+}
+
+.contact {
+    background-color:#E8CEBF;
+}
+
+.contact-div {
+    padding: 40px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.form-ele {
+    text-align: center;
+}
+
+.form-input {
+    padding: 5px;
+    display: block;
+}
+
+#form-title {
+    text-align: center;
+    padding: 5px;
 }
 
 #caption {
